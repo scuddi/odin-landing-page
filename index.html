@@ -1,3 +1,7 @@
+<!-- Tried to copy from here: 
+ https://github.com/helenbun/landing-page/blob/main/index.html
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +11,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section id="hero">
         <div class="header">
             <div class="logo">
                 Header Logo
             </div>
-            <div class="right-links">
-                <ul class="header-links">
+
+        <!-- Ehemals .right-links -> Muss noch gelöscht werden in Style.css-->
+            <div class="header-links">
+                <ul>
                     <li>header link one</li>
                     <li>header link two</li>
                     <li>header link three</li>
@@ -21,12 +28,17 @@
         </div>
         <div class="stage">
             <div class="left-stage">
-                <div class="hero-main">This Website is awesome</div>
-                <div class="hero-subtext">Subtext</div>
-                <div><button class="stage-button">Sign up</button></div>
+                <!--<div class="hero-main">This Website is awesome</div>-->
+                <h1>This Website is awesome</h1>
+                <!--<div class="hero-subtext">Subtext</div>-->
+                <p>This is some subtext that goes under the maint title. It's a smaller font and so on.</p>
+                <button class="stage-button">Sign up</button>
             </div>
-            <div><img id="hero-img" src="./images/pexels-earano-2127969.jpg"></div>
+            <div>
+                <img id="hero-img" src="./images/pexels-earano-2127969.jpg">
+            </div>
         </div>
+    </section>
         <div class="footer">
             Copyright © The Odin Project 2021
         </div>
