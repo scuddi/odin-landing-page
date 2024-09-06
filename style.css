@@ -14,7 +14,6 @@ body {
 #hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    font-weight: 900;
     padding: 0 18em;
 }
 
@@ -27,26 +26,20 @@ body {
 }
 
 .logo {
-    font-size: 32px;
-    /*
-    color: #F9FAF8;
+    font-size: 24px;
     font-weight: 700;
-    padding-left: 20px;
-    */
+    color: #F9FAF8
 }
 
-/*
-.right-links {
-    color: #E5E7EB;
-    padding-right: 20px;
-}
-    */
 
 .header-links ul{
     list-style: none;
     display: flex;
     gap: 12px;
     padding: 12px 0px;
+    padding-right: 60px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .stage {
@@ -55,9 +48,6 @@ body {
     padding-bottom: 30px;
     gap: 30px;
 }
-
-
-/* Was bedeutet das hier??? */
 
 .stage > * {
     flex: 1;
