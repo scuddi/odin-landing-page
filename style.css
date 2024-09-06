@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Tried to copy from here: https://github.com/helenbun/landing-page/blob/main/styles.css */
-
 * {
     margin: 0;
     padding: 0;
@@ -53,33 +51,30 @@ body {
     flex: 1;
 }
 
-.left-stage p{
-    padding-left: 20px 48px 20px 0;
-    gap: 8px;
-    color: #E5E7EB;
-    font-size: 24px;
-}
-
-/* Eventuell nicht mehr notwendig
-.hero-main {
-    font-size: 48px;
+.left-stage {
     color: #F9FAF8;
-    font-weight: 900;
 }
-*/
 
-/* Eventuell nicht mehr notwendig
-.hero-subtext {
-    font-size: 18px;
-    color: #E5E7EB;
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 30px;
 }
-    */
+
+.left-stage p{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+#last-p {
+    padding-bottom: 25px;
+}
 
 .stage-button {
     background-color: #3882F6;
+    font-size: 16px;
     border: none;
     color: white;
-    font-weight: 600;
     padding: 8px 25px;
     text-align: center;
     border-radius: 6px;
