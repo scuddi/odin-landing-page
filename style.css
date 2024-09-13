@@ -92,13 +92,24 @@ h1 {
     background-color: white;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 
 .content-headline {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.bar {
+    padding-top: 30px;
+}
+
+.bar-image {
+    width: 266px;
+    height: 200px;
+    border-radius: 15%;
+    padding: 6px;
 }
 
 .footer {
