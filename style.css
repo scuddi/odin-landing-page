@@ -103,6 +103,14 @@ h1 {
 
 .bar {
     padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.info {
+    max-width: 350px;
 }
 
 .bar-image {
