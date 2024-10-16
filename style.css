@@ -132,24 +132,31 @@ h1 {
     background-color: #E5E7EB;
     padding: 30px;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citation-content {
+    max-width: 900px;
+    width: 100%;
 }
 
 .citation {
     font-size: 36px;
     font-family: "light italic";
-    padding: 40px 60px;
+    padding: 15px 60px;
     text-align: center;
-    max-width: 900px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
 }
 
 .author {
-    display: flex;
-    justify-content: flex-end;
-    margin: auto;
+    text-align: right;
+    padding-right: 80px;
+    font-weight: 700;
+    padding-top: 10px;
 }
+
+
 
 .footer {
     background-color: #1F2937;
