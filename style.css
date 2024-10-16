@@ -146,7 +146,9 @@ h1 {
 }
 
 .author {
-
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
 }
 
 .footer {
