@@ -164,11 +164,18 @@ h1 {
 
 .cta-box {
     display: flex;
-    align-items: stretch;
+    /* align-items: stretch; */
+    justify-content: space-evenly;
     background-color: #3882F6;
     padding: 35px;
     border-radius: 3%;
     color: white;
+    width: 900px;
+}
+
+#cta-heading {
+    font-weight: 700;
+    padding-bottom: 3px;
 }
 
 .footer {
